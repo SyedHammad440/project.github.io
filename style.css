@@ -1,0 +1,178 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+/* ----------------- navbar-background color ------------- */
+#navbar1{
+    background-color: rgba(167, 148, 222, 0.661);
+    line-height: 30px;
+
+}
+header{
+    margin-top: 0%;
+}
+.navbar-nav li a {
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 60;
+    letter-spacing: 2px;
+    color: rgb(0, 0, 0);
+    position: relative;
+    /* border-right: 0.5px solid rgba(105, 85, 171, 0.661); */
+}
+.navbar-nav li a::before{
+    content: '';
+    position: absolute;
+    top: 100%;
+    bottom: 50%;
+    width: 0%;
+    height: 9%;
+    background: rgba(33, 6, 122, 0.661);
+    transition: all 0.3s linear;
+}
+.navbar-nav li a:hover::before{
+    width: 80%;
+}
+/* --------- footer background color ---------- */
+#footer{
+    background-color: rgba(116, 93, 198, 0.661);
+}
+/* --------------------- type writer text -------------- */
+#text-wid{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+  .line-1{
+      position: relative;
+      top: 50%;  
+      width: 20em;
+      margin: 0 auto;
+      border-right: 2px solid rgba(0, 0, 0, 0.75);
+      font-size: 140%;
+      text-align: center;
+      white-space: nowrap;
+      overflow: hidden;
+      transform: translateY(-50%);  
+      color:rgba(56, 14, 194, 0.661) ;  
+  }
+  
+  .anim-typewriter{
+    animation: typewriter 4s steps(44) 1s 1 normal both,
+               blinkTextCursor 500ms steps(44) infinite normal;
+  }
+  @keyframes typewriter{
+    from{width: 0;}
+    to{width: 20em;}
+  }
+  @keyframes blinkTextCursor{
+    from{border-right-color: rgba(0, 0, 0, 0.75);}
+    to{border-right-color: transparent;}
+  }
+  .accordian-h{
+     text-align: center;
+     font-weight: bold;
+     text-decoration: underline;
+     background-color:rgba(105, 73, 209, 0.291);
+  }
+  .accordian-subclass{
+    text-align: center;
+    font-weight: bold;
+    background-color:rgba(105, 105, 105, 0.458);
+ }
+ #poses-section2{
+    background-color: #d5d9db;
+}
+.card-title{
+    justify-content: center;
+}
+#meditate-para{
+    text-align: justify;
+    font-size: 20px;
+}
+#med-top{
+    background-color: rgba(137, 43, 226, 0.244);
+}
+#para-aero{
+    font-size: 20px;
+}
+#div1{
+    background-color: #6949d14a;
+}
+#div3{
+    background-color: #6949d14a;
+}
+
+.card-group{
+    padding: 5px;
+    
+}
+
+.card-group .card .card-body{
+    background-color: #ddf;
+    
+}
+
+.main-heading{
+    display: flex;
+    justify-content: center;
+}
+
+
+.team-heading{
+    justify-content: center;
+    display: flex;
+    padding: 10px;
+}
+
+.read-more-button button{
+    background-color: rgba(56, 14, 194, 0.661);
+    color: white;
+    border: 2px solid black;
+}
+
+.read-more-button :hover{
+    background-color: red;
+    color: white;
+    border: 2px solid black;
+}
+
+.button button{
+    background-color: rgba(56, 14, 194, 0.661);
+    color: white;
+    border: 2px solid black;
+    padding: 5px
+}
+
+.button  :hover{
+    background-color: red;
+    color: white;
+    border: 2px solid black;
+}
+
+
+.logos :hover{
+    color: blue;
+}
+
+.bg-color{
+    background-color: #ddd;
+}
+
+.r-button button{
+    border: 1px solid black;
+    background-color: black;
+    color: white;
+    padding: 6px;
+}
+
+.r-button :hover{
+    background-color:rgba(56, 14, 194, 0.661);
+    color: white;
+    border: 1px solid black;
+}
+#color-bg-footer{
+    background-color: rgb(162, 148, 214);
+}
